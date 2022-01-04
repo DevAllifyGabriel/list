@@ -1,0 +1,30 @@
+@import './dist/scsc/variaveis.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: roboto;
+    font-weight: 400;
+}
+
+body{
+    background:  $primary-background-color;
+}
+ul{
+    list-style: none;
+}
+textarea:focus, input:focus, button{
+    outline: none;
+}
+
+button{
+    cursor: pointer;
+}
+//Classes
+.container{
+    width: 350px;
+    margin: 50px auto;
+}
